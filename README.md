@@ -20,11 +20,11 @@ This end-to-end data science project demonstrates key skills in data cleaning, e
     -   Addresses data skewness by applying a log transformation to RFM metrics, preparing them for clustering.
     -   Visualizes the distribution of RFM values before and after transformation.
 
-    ![RFM Distributions](link-to-your-distribution-plot-image.png) -   **Customer Segmentation:**
+
     -   **Score-Based Segmentation:** Divides customers into meaningful segments like `Best Customers`, `Loyal Customers`, `At Risk`, and `Churned Customers` using RFM scores.
     -   **K-Means Clustering:** Determines the optimal number of clusters using the Elbow Method and groups customers based on their standardized RFM values.
 
-    ![Customer Segments Pie Chart](link-to-your-pie-chart-image.png) -   **Churn Prediction:**
+ 
     -   Engineers a `Churn` feature based on customer recency (customers with recency > 90 days are flagged as churned).
     -   Trains a **Logistic Regression** model to predict the likelihood of a customer churning. The model achieved an accuracy of **100%** on the test set due to the direct relationship between recency and the churn definition.
 
@@ -32,7 +32,7 @@ This end-to-end data science project demonstrates key skills in data cleaning, e
     -   Aggregates transaction data into a monthly time series.
     -   Trains an **ARIMA (AutoRegressive Integrated Moving Average)** model to forecast total transaction amounts for the next 6 months.
 
-    ![Sales Forecast Plot](link-to-your-forecast-plot-image.png) ---
+
 
 ## 🛠️ Technologies Used
 
